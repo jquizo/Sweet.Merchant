@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- LIGHTBOX -->
+    <link rel="stylesheet" href="dist/css/simple-lightbox.min.css">
+    <!-- FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/bad18db414.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <title>Test Product Page</title>
+</head>
+
+<body id="home">
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="title-logo">The Sweet Merchant</h1>
+            <ul class="nav">
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- SHOWCASE -->
+    <section class="section-1" id="about">
+        <div class="container">
+                <p>Situated in the South Eastern suburbs of Melbourne, Victoria, The Sweet Merchant is an at-home, self-taught baker.</p>
+                <p class="section-1-p2">Creativity and arts has always been an underlying interest that soon sparked the idea of this creative platform in a form of edible goods. Baking soon became the medium and inspiration (who can't be attracted to the myriad of colourful cakes?). <br> Now, the creator behind The Sweet Merchant, intends to share her baking journey to explore the sweetest part of every meal and desserts.</p>
+                
+            <img src="dist/img/smlcirclelogo.jpg" alt="Sweet-Merchant" class="sml-logo">
+        </div>
+    </section>
+    <!-- OVERLAY 1 -->
+    <section class="section-2">
+        <div class="overlay">
+            <div class="section-2-inner">
+                <h3>Baking Cakes, Cupcakes & All Things Sweet</h3>
+            </div>
+        </div>
+    </section>
+    <!-- GALLERY -->
+    <section class="section-3" id="gallery">
+        <div class="section-3-inner">
+            <h1>Gallery</h1>
+        </div>
+        <div class="gallery">
+            <a href="/dist/img/gallery/gimage1.jpg" class="big"><img src="/dist/img/gallery/gimage1.jpg" alt="" title=""/></a>
+            <a href="/dist/img/gallery/gimage2.jpg" class="big"><img src="/dist/img/gallery/gimage2.jpg" alt=""/></a>
+            <a href="/dist/img/gallery/gimage3.jpg" class="big"><img src="/dist/img/gallery/gimage3.jpg" alt=""/></a>
+            <a href="/dist/img/gallery/gimage4.jpg" class="big"><img src="/dist/img/gallery/gimage4.jpg" alt=""/></a>
+            <a href="/dist/img/gallery/gimage5.jpg" class="big"><img src="/dist/img/gallery/gimage5.jpg" alt=""/></a>
+            <a href="/dist/img/gallery/gimage6.jpg" class="big"><img src="/dist/img/gallery/gimage6.jpg" alt=""/></a>
+            <a href="/dist/img/gallery/gimage7.jpg" class="big"><img src="/dist/img/gallery/gimage7.jpg" alt=""/></a>
+            <a href="/dist/img/gallery/gimage8.jpg" class="big"><img src="/dist/img/gallery/gimage8.jpg" alt=""/></a>
+            <a href="/dist/img/gallery/gimage9.jpg" class="big"><img src="/dist/img/gallery/gimage9.jpg" alt=""/></a>
+            <a href="/dist/img/gallery/gimage10.jpg" class="big"><img src="/dist/img/gallery/gimage10.jpg" alt=""/></a>
+            <a href="/dist/img/gallery/gimage11.jpg" class="big"><img src="/dist/img/gallery/gimage11.jpg" alt=""/></a>
+            <a href="/dist/img/gallery/gimage12.jpg" class="big"><img src="/dist/img/gallery/gimage12.jpg" alt=""/></a>
+            <a href="/dist/img/gallery/gimage13.jpg" class="big"><img src="/dist/img/gallery/gimage13.jpg" alt=""/></a>
+            <a href="/dist/img/gallery/gimage14.jpg" class="big"><img src="/dist/img/gallery/gimage14.jpg" alt=""/></a>
+            <a href="/dist/img/gallery/gimage15.jpg" class="big"><img src="/dist/img/gallery/gimage15.jpg" alt=""/></a>
+            
+        </div>
+    </section>
+    <!-- CONTACT SECTION -->
+    <section class="section-4" id="contact">
+        <div class="container">
+            <h1>Contact</h1>
+            <p>I would love to hear from you!</p><br/>
+            <a class="contactlink" href="mailto:jenrequizo@gmail.com" target="_blank"><i class="far fa-envelope fa-3x"></i><p>jenrequizo@gmail.com</p></a>
+            <div>
+            <a class="contactlink" href="https://www.instagram.com/thesweetmerchant/">
+                <i class="fab fa-instagram fa-3x"></i><p>instagram.com/thesweetmerchant</p>
+            </a>
+            </div>
+        </div>
+    </section>
+    <!-- OVERLAY 2 -->
+    <section class="section-5">
+        <div class="overlay-2">
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <section class="footer">
+        <div class="container">
+                <div><p>Baking Cakes, Cupcakes & All Things Sweet</p></div>
+                <div><p> &copy; Jen Requizo <script type="text/javascript">
+                    document.write(new Date().getFullYear());
+                </script> |  Website by Jason Requizo</p></div>
+        </div>
+    </section>
+
+    <script src="dist/js/jquery-3.4.1.js"></script>
+    <script src="dist/js/simple-lightbox.min.js"></script>
+    <script>
+        $(function() {
+            var lightbox = new SimpleLightbox('.gallery a');
+            var lightbox = $('.gallery a').simpleLightbox();
+        })
+    </script>
+</body>
+</html>
